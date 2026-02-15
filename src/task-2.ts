@@ -8,10 +8,10 @@ interface Product {
 
 
 
-const product = {
+const product : Product = {
   id : 1,
   title: "Tablet",
   description: "Compact and fast",
-} as Product;
+};
 
 console.log(`Product: ${JSON.stringify(product)}`);
